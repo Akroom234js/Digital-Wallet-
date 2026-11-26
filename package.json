@@ -1,0 +1,31 @@
+{
+  "name": "task1-degetal-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^10.15.0",
+    "prettier": "^3.10.1",
+    "supertest": "^7.3.2",
+    "vitest": "^5.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "xmlbuilder2": "^4.0.3",
+    "zod": "^4.6.7"
+  }
+}
